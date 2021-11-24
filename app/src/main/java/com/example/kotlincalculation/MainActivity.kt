@@ -3,6 +3,7 @@ package com.example.kotlincalculation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val result= a+b
 
-        textview.text="Result: " + result
+        textView.text="Result: " + result
 
     }
 
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         val result= a-b
 
-        textview.text="Result: " + result
+        textView.text="Result: " + result
 
     }
 
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         val result= a*b
 
-        textview.text="Result: " + result
+        textView.text="Result: " + result
 
     }
 
@@ -47,11 +48,8 @@ class MainActivity : AppCompatActivity() {
 
         val result= a/b
 
-        textview.text="Result: " + result
+        textView.text="Result: " + result
 
 
     }
-
-
-
 }
